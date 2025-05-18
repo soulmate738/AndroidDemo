@@ -18,6 +18,12 @@ buildscript {
     }
 }
 
+ext {
+    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility1 = JavaVersion.VERSION_1_8
+}
+
 allprojects {
     repositories {
         maven { url 'https://maven.aliyun.com/repository/google' }

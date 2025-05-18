@@ -64,5 +64,5 @@ dependencies {
     // 如果你还需要处理权限相关逻辑，添加以下依赖
     implementation 'com.google.android.gms:play-services-auth:20.1.0'
 
-    compile project(":leancloudchatkit")
+//    compile project(":leancloudchatkit")
 }
