@@ -1,0 +1,405 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iflytek.edgeAI"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:5:5-77
+11-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:5:22-74
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 传统设备信息权限，仅适用于非 SDK 接口 -->
+12-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:6:5-75
+12-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:6:22-72
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:7:5-81
+13-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:8:5-80
+14-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:9:5-67
+15-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+16-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:10:5-82
+16-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:10:22-79
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 悬浮窗权限 -->
+17-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:11:5-71
+17-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:11:22-68
+18    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 位置权限 -->
+18-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:12:5-78
+18-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:12:22-75
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:13:5-81
+19-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 权限 -->
+20-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:14:5-79
+20-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:14:22-76
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:15:5-66
+21-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:15:22-63
+22    <uses-permission android:name="android.permission.FLASHLIGHT" />
+22-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:16:5-69
+22-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:16:22-66
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:17:5-65
+23-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:17:22-62
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:18:5-68
+24-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:18:22-65
+25    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+25-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:19:5-75
+25-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:19:22-72
+26
+27    <uses-feature android:name="android.hardware.camera" />
+27-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:20:5-60
+27-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:20:19-57
+28    <uses-feature android:name="android.hardware.camera.flash" />
+28-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:21:5-66
+28-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:21:19-63
+29
+30    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+30-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:12:5-78
+30-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:12:22-75
+31    <uses-permission android:name="android.permission.OVERLAY_WINDOW" />
+31-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:24:5-73
+31-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:24:22-70
+32
+33    <application
+33-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:26:5-180:19
+34        android:allowBackup="true"
+34-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:27:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.5.0] C:\Users\soulm\.gradle\caches\transforms-3\d871383ad5b4fbf19871fafd6e5b3c82\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@mipmap/ic_lxq"
+37-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:28:9-38
+38        android:label="@string/app_name"
+38-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:29:9-41
+39        android:requestLegacyExternalStorage="true"
+39-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:30:9-52
+40        android:roundIcon="@mipmap/ic_lxq"
+40-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:31:9-43
+41        android:supportsRtl="true"
+41-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:32:9-35
+42        android:testOnly="true"
+43        android:theme="@style/AppTheme" >
+43-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:33:9-40
+44        <activity
+44-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:34:9-43:20
+45            android:name="com.example.sparkchaindemo.activity.SplashActivity"
+45-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:35:13-52
+46            android:exported="true"
+46-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:36:13-36
+47            android:theme="@style/SplashTheme" >
+47-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:37:13-47
+48            <intent-filter>
+48-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:38:13-42:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:39:17-69
+49-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:39:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:41:17-77
+51-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:41:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:44:9-47:47
+55            android:name="com.example.sparkchaindemo.activity.LoginActivity"
+55-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:45:13-51
+56            android:exported="true"
+56-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:46:13-36
+57            android:theme="@style/AppTheme" />
+57-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:47:13-44
+58        <activity
+58-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:48:9-50:40
+59            android:name="com.example.sparkchaindemo.activity.AlertActivity"
+59-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:49:13-51
+60            android:exported="false" />
+60-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:50:13-37
+61        <activity
+61-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:51:9-53:40
+62            android:name="com.example.sparkchaindemo.activity.ClassActivity"
+62-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:52:13-51
+63            android:exported="false" />
+63-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:53:13-37
+64        <activity
+64-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:54:9-56:40
+65            android:name="com.example.sparkchaindemo.activity.EmergencyContactActivity"
+65-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:55:13-62
+66            android:exported="false" />
+66-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:56:13-37
+67        <activity
+67-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:57:9-59:40
+68            android:name="com.example.sparkchaindemo.activity.AddVoiceActivity"
+68-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:58:13-54
+69            android:exported="false" />
+69-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:59:13-37
+70        <activity
+70-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:60:9-62:40
+71            android:name="com.example.sparkchaindemo.activity.QhActivity"
+71-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:61:13-48
+72            android:exported="false" /> <!-- <activity -->
+72-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:62:13-37
+73        <!-- android:name=".activity.AddYytActivity" -->
+74        <!-- android:exported="false" /> -->
+75        <activity
+75-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:65:9-67:40
+76            android:name="com.example.sparkchaindemo.activity.YytActivity"
+76-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:66:13-49
+77            android:exported="false" />
+77-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:67:13-37
+78        <activity
+78-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:68:9-70:40
+79            android:name="com.example.sparkchaindemo.activity.ShouYuActivity"
+79-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:69:13-52
+80            android:exported="false" />
+80-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:70:13-37
+81        <activity
+81-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:71:9-73:40
+82            android:name="com.example.sparkchaindemo.activity.QtxActivity"
+82-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:72:13-49
+83            android:exported="false" />
+83-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:73:13-37
+84        <activity
+84-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:74:9-76:40
+85            android:name="com.example.sparkchaindemo.activity.YybActivity"
+85-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:75:13-49
+86            android:exported="false" />
+86-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:76:13-37
+87        <activity
+87-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:77:9-79:40
+88            android:name="com.example.sparkchaindemo.activity.BaoJingActivity"
+88-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:78:13-53
+89            android:exported="false" />
+89-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:79:13-37
+90        <activity
+90-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:80:9-82:40
+91            android:name="com.example.sparkchaindemo.activity.ZimuActivity"
+91-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:81:13-50
+92            android:exported="false" />
+92-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:82:13-37
+93        <activity
+93-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:83:9-85:40
+94            android:name="com.example.sparkchaindemo.activity.SttActivity"
+94-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:84:13-49
+95            android:exported="false" /> <!-- 添加ContentProvider信息 -->
+95-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:85:13-37
+96        <activity
+96-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:48:9-50:40
+97            android:name="com.example.sparkchaindemo.activity.AlertActivity"
+97-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:49:13-51
+98            android:exported="false" />
+98-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:50:13-37
+99        <activity
+99-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:90:9-94:20
+100            android:name="com.example.sparkchaindemo.activity.MainActivity"
+100-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:91:13-50
+101            android:exported="true" >
+101-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:92:13-36
+102        </activity>
+103
+104        <provider
+104-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:96:9-98:84
+105            android:name="cn.bmob.v3.util.BmobContentProvider"
+105-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:97:13-63
+106            android:authorities="com.example.sparkchaindemo.BmobContentProvider" />
+106-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:98:13-81
+107
+108        <service android:name="cn.leancloud.push.PushService" />
+108-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:100:9-65
+108-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:100:18-62
+109        <service
+109-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:101:9-104:40
+110            android:name="com.example.sparkchaindemo.services.FloatingWindowService"
+110-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:102:13-85
+111            android:enabled="true"
+111-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:103:13-35
+112            android:exported="false" />
+112-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:104:13-37
+113
+114        <receiver
+114-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:105:9-113:20
+115            android:name="cn.leancloud.push.LCBroadcastReceiver"
+115-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:106:13-65
+116            android:exported="true" >
+116-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:107:13-36
+117            <intent-filter>
+117-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:108:13-112:29
+118                <action android:name="android.intent.action.BOOT_COMPLETED" />
+118-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:109:17-79
+118-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:109:25-76
+119                <action android:name="android.intent.action.USER_PRESENT" />
+119-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:110:17-77
+119-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:110:25-74
+120                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+120-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:111:17-79
+120-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:111:25-76
+121            </intent-filter>
+122        </receiver> <!-- <activity -->
+123        <!-- android:name=".activity.SplashActivity" -->
+124        <!-- android:exported="true" -->
+125        <!-- android:theme="@style/SplashTheme" /> -->
+126        <!-- <activity -->
+127        <!-- android:name=".activity.LoginActivity" -->
+128        <!-- android:exported="true" -->
+129        <!-- android:theme="@style/AppTheme" /> -->
+130        <activity
+130-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:121:9-131:20
+131            android:name="com.example.sparkchaindemo.MainActivity"
+131-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:122:13-41
+132            android:exported="true" >
+132-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:123:13-36
+133
+134            <!-- <intent-filter> -->
+135            <!-- <action android:name="android.intent.action.MAIN" /> -->
+136
+137
+138            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+139            <!-- </intent-filter> -->
+140        </activity>
+141        <activity
+141-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:132:9-134:39
+142            android:name="com.example.sparkchaindemo.llm.online_llm.chat.ChatActivity"
+142-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:133:13-61
+143            android:label="大模型通用对话" />
+143-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:134:13-36
+144        <activity
+144-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:135:9-137:36
+145            android:name="com.example.sparkchaindemo.llm.online_llm.tti.ttiDemoActivity"
+145-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:136:13-63
+146            android:label="图片生成" />
+146-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:137:13-33
+147        <activity
+147-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:138:9-140:36
+148            android:name="com.example.sparkchaindemo.llm.online_llm.image_understanding.ImageUnderstanding"
+148-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:139:13-82
+149            android:label="图片理解" />
+149-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:140:13-33
+150        <activity
+150-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:141:9-143:37
+151            android:name="com.example.sparkchaindemo.llm.online_llm.embedding.EmbeddingActivity"
+151-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:142:13-71
+152            android:label="文本向量化" />
+152-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:143:13-34
+153        <activity
+153-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:144:9-146:37
+154            android:name="com.example.sparkchaindemo.llm.online_llm.personatetts.PersonateTTSActivity"
+154-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:145:13-77
+155            android:label="超拟人合成" />
+155-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:146:13-34
+156        <activity
+156-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:147:9-149:40
+157            android:name="com.example.sparkchaindemo.llm.online_llm.bm.bmmDemoActivity"
+157-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:148:13-62
+158            android:label="多语种识别大模型" />
+158-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:149:13-37
+159        <activity
+159-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:150:9-152:39
+160            android:name="com.example.sparkchaindemo.llm.online_llm.bm.bmcDemoActivity"
+160-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:151:13-62
+161            android:label="中文识别大模型" />
+161-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:152:13-36
+162        <activity
+162-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:153:9-155:37
+163            android:name="com.example.sparkchaindemo.llm.online_llm.bm.bmModeChoiceActivity"
+163-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:154:13-67
+164            android:label="大模型识别" />
+164-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:155:13-34
+165        <activity
+165-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:156:9-158:44
+166            android:name="com.example.sparkchaindemo.llm.online_llm.function.ChatWithFuctionCallActivity"
+166-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:157:13-80
+167            android:label="FunctionCall" />
+167-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:158:13-41
+168        <activity
+168-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:159:9-161:37
+169            android:name="com.example.sparkchaindemo.llm.online_llm.online_llm_mainActivity"
+169-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:160:13-67
+170            android:label="大模型能力" />
+170-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:161:13-34
+171        <activity
+171-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:162:9-164:36
+172            android:name="com.example.sparkchaindemo.ai.AIMainActivity"
+172-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:163:13-46
+173            android:label="语音能力" />
+173-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:164:13-33
+174        <activity
+174-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:165:9-167:38
+175            android:name="com.example.sparkchaindemo.ai.rtasr.RTASRActivity"
+175-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:166:13-51
+176            android:label="实时语音转写" />
+176-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:167:13-35
+177        <activity
+177-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:168:9-170:36
+178            android:name="com.example.sparkchaindemo.ai.itrans.ITSActivity"
+178-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:169:13-50
+179            android:label="在线翻译" />
+179-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:170:13-33
+180        <activity
+180-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:171:9-173:36
+181            android:name="com.example.sparkchaindemo.ai.tts.TTSActivity"
+181-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:172:13-47
+182            android:label="在线合成" />
+182-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:173:13-33
+183        <activity
+183-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:174:9-176:36
+184            android:name="com.example.sparkchaindemo.ai.asr.asrActivity"
+184-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:175:13-47
+185            android:label="语音听写" />
+185-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:176:13-33
+186        <activity
+186-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:177:9-179:38
+187            android:name="com.example.sparkchaindemo.ai.raasr.RAASRActivity"
+187-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:178:13-51
+188            android:label="录音文件转写" />
+188-->E:\Txt\SparkChain_Android_SDK_2.0.0_rc5\app\src\main\AndroidManifest.xml:179:13-35
+189        <activity
+189-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\soulm\.gradle\caches\transforms-3\7cbd2a83b591724acf6844bae5a8732c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:23:9-27:75
+190            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+190-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\soulm\.gradle\caches\transforms-3\7cbd2a83b591724acf6844bae5a8732c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:24:13-93
+191            android:excludeFromRecents="true"
+191-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\soulm\.gradle\caches\transforms-3\7cbd2a83b591724acf6844bae5a8732c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:25:13-46
+192            android:exported="false"
+192-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\soulm\.gradle\caches\transforms-3\7cbd2a83b591724acf6844bae5a8732c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:26:13-37
+193            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+193-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\soulm\.gradle\caches\transforms-3\7cbd2a83b591724acf6844bae5a8732c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:27:13-72
+194        <!--
+195            Service handling Google Sign-In user revocation. For apps that do not integrate with
+196            Google Sign-In, this service will never be started.
+197        -->
+198        <service
+198-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\soulm\.gradle\caches\transforms-3\7cbd2a83b591724acf6844bae5a8732c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:33:9-37:51
+199            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+199-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\soulm\.gradle\caches\transforms-3\7cbd2a83b591724acf6844bae5a8732c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:34:13-89
+200            android:exported="true"
+200-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\soulm\.gradle\caches\transforms-3\7cbd2a83b591724acf6844bae5a8732c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:35:13-36
+201            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+201-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\soulm\.gradle\caches\transforms-3\7cbd2a83b591724acf6844bae5a8732c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:36:13-107
+202            android:visibleToInstantApps="true" />
+202-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\soulm\.gradle\caches\transforms-3\7cbd2a83b591724acf6844bae5a8732c\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:37:13-48
+203
+204        <activity
+204-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\soulm\.gradle\caches\transforms-3\c3fbf2245fde91fb32aebfb02db22fc2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+205            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+205-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\soulm\.gradle\caches\transforms-3\c3fbf2245fde91fb32aebfb02db22fc2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+206            android:exported="false"
+206-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\soulm\.gradle\caches\transforms-3\c3fbf2245fde91fb32aebfb02db22fc2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+207            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+207-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\soulm\.gradle\caches\transforms-3\c3fbf2245fde91fb32aebfb02db22fc2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+208
+209        <meta-data
+209-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\soulm\.gradle\caches\transforms-3\5107ee233bb0ecc46242ad26c4588e50\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+210            android:name="com.google.android.gms.version"
+210-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\soulm\.gradle\caches\transforms-3\5107ee233bb0ecc46242ad26c4588e50\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+211            android:value="@integer/google_play_services_version" />
+211-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\soulm\.gradle\caches\transforms-3\5107ee233bb0ecc46242ad26c4588e50\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+212    </application>
+213
+214</manifest>

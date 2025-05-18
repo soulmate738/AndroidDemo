@@ -1,0 +1,5 @@
+<!-- res/drawable/tab_icon_selector.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_xiaoxi" android:state_selected="true" />
+    <item android:drawable="@drawable/ic_xiaoxi_no" />
+</selector>

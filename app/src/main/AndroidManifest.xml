@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sparkchaindemo">
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 传统设备信息权限，仅适用于非 SDK 接口 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 悬浮窗权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 位置权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.OVERLAY_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_lxq"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_lxq"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.AlertActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EmergencyContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AddVoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.QhActivity"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".activity.AddYytActivity" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".activity.YytActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ShouYuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.QtxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.YybActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BaoJingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ZimuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SttActivity"
+            android:exported="false" /> <!-- 添加ContentProvider信息 -->
+        <activity
+            android:name=".activity.AlertActivity"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+
+        </activity>
+
+        <provider
+            android:name="cn.bmob.v3.util.BmobContentProvider"
+            android:authorities="com.example.sparkchaindemo.BmobContentProvider" />
+
+        <service android:name="cn.leancloud.push.PushService" />
+        <service
+            android:name="com.example.sparkchaindemo.services.FloatingWindowService"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name="cn.leancloud.push.LCBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver> <!-- <activity -->
+        <!-- android:name=".activity.SplashActivity" -->
+        <!-- android:exported="true" -->
+        <!-- android:theme="@style/SplashTheme" /> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.LoginActivity" -->
+        <!-- android:exported="true" -->
+        <!-- android:theme="@style/AppTheme" /> -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".llm.online_llm.chat.ChatActivity"
+            android:label="大模型通用对话" />
+        <activity
+            android:name=".llm.online_llm.tti.ttiDemoActivity"
+            android:label="图片生成" />
+        <activity
+            android:name=".llm.online_llm.image_understanding.ImageUnderstanding"
+            android:label="图片理解" />
+        <activity
+            android:name=".llm.online_llm.embedding.EmbeddingActivity"
+            android:label="文本向量化" />
+        <activity
+            android:name=".llm.online_llm.personatetts.PersonateTTSActivity"
+            android:label="超拟人合成" />
+        <activity
+            android:name=".llm.online_llm.bm.bmmDemoActivity"
+            android:label="多语种识别大模型" />
+        <activity
+            android:name=".llm.online_llm.bm.bmcDemoActivity"
+            android:label="中文识别大模型" />
+        <activity
+            android:name=".llm.online_llm.bm.bmModeChoiceActivity"
+            android:label="大模型识别" />
+        <activity
+            android:name=".llm.online_llm.function.ChatWithFuctionCallActivity"
+            android:label="FunctionCall" />
+        <activity
+            android:name=".llm.online_llm.online_llm_mainActivity"
+            android:label="大模型能力" />
+        <activity
+            android:name=".ai.AIMainActivity"
+            android:label="语音能力" />
+        <activity
+            android:name=".ai.rtasr.RTASRActivity"
+            android:label="实时语音转写" />
+        <activity
+            android:name=".ai.itrans.ITSActivity"
+            android:label="在线翻译" />
+        <activity
+            android:name=".ai.tts.TTSActivity"
+            android:label="在线合成" />
+        <activity
+            android:name=".ai.asr.asrActivity"
+            android:label="语音听写" />
+        <activity
+            android:name=".ai.raasr.RAASRActivity"
+            android:label="录音文件转写" />
+    </application>
+
+</manifest>

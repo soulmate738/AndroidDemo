@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- 搜索框和返回按钮的容器 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <!-- 返回按钮 -->
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@mipmap/back"
+            android:textColor="@android:color/white"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+        <!-- 搜索框 -->
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/backButton"
+            android:hint="搜索城市或区号"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:textSize="16sp"
+            android:background="@drawable/login_btn_bg"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            android:drawableEnd="@android:drawable/ic_search_category_default"
+            android:drawablePadding="10dp"/>
+    </RelativeLayout>
+
+    <!-- 区号列表 -->
+    <ListView
+        android:id="@+id/areaCodeListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:layout_marginHorizontal="20dp"
+        android:dividerHeight="1dp"/>
+</LinearLayout>

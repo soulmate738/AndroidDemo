@@ -1,0 +1,594 @@
+[
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_yyb.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_yyb.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_speed_12x.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_speed_12x.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_speed_1_5x.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_speed_1_5x.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_lxq.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\ic_lxq.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_banner2.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\banner2.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_splash_bg.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\splash_bg.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\raw_video1.m4s.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\raw\\video1.m4s"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_online_llm_bm_choice.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\online_llm_bm_choice.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_online_llm_bmc.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\online_llm_bmc.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_shouyu5.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\shouyu5.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_exit.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\exit.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_stt.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\fragment_stt.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_online_llm_main.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\online_llm_main.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_xiaoxi_no.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\ic_xiaoxi_no.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_back.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\back.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_zimu.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_zimu.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mine_no.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\ic_mine_no.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_emergency_contact.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_emergency_contact.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_ai_raasr.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\ai_raasr.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baojing.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\baojing.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\raw_video2.m4s.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\raw\\video2.m4s"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_iv_20_.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\iv_20_.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selected.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\selected.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_floating_window_bg.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\floating_window_bg.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_add.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\add.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_xiaoxi_1.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\xiaoxi_1.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_faxian.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\faxian.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_wenjuan.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\wenjuan.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_flow_layout.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\flow_layout.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_voice_package.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\item_voice_package.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_online_llm_image_understanding.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\online_llm_image_understanding.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_pause.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\ic_pause.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_online_llm_chat.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\online_llm_chat.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_online_llm_personatetts.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\online_llm_personatetts.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_xiaoxi.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\ic_xiaoxi.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_close.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\close.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_tuijian.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\fragment_tuijian.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_shezhi.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\shezhi.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_select_xiaoxi.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\select_xiaoxi.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_item_drop.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\adapter_item_drop.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_class_bg.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\class_bg.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_guanyu.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\guanyu.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_ai_asr.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\ai_asr.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_fourth.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\fragment_fourth.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_faxian.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\ic_faxian.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_select_faxian.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\select_faxian.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_online_llm_bmm.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\online_llm_bmm.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_voice.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\item_voice.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_llm_main.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\llm_main.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_youjiantou.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\youjiantou.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_banner1.jpg.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\banner1.jpg"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_yuyin_1.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\yuyin_1.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_wode_1.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\wode_1.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_tobig.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\tobig.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_t_t_s.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\fragment_t_t_s.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_stt.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\stt.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_shou_yu.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_shou_yu.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_stt.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_stt.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_select_home.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\select_home.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mine.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\ic_mine.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_speed_1x.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_speed_1x.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_online_llm_tti.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\online_llm_tti.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_shouyu3.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\shouyu3.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_online_llm_embedding.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\online_llm_embedding.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_alert.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\dialog_alert.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_ai_translate.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\ai_translate.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_shouyu6.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\shouyu6.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_ai_main.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\ai_main.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_comtact.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\dialog_comtact.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_fullscreen.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\ic_fullscreen.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_yyt.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_add_yyt.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_yyt.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_yyt.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_btnbg.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\btnbg.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_edit_bg.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\login_edit_bg.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_img.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\img.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_fujin.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\fragment_fujin.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_contact.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\item_contact.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_lock.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\lock.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_speed.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\ic_speed.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_tongguo.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\tongguo.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_shouyu2.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\shouyu2.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bao_jing.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_bao_jing.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_ai_rtasr.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\ai_rtasr.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_xiao_xi.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\fragment_xiao_xi.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\raw_video4.m4s.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\raw\\video4.m4s"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dialog_bg.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\dialog_bg.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_class_doing.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\class_doing.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_shouye.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\shouye.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_tts1.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\fragment_tts1.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_ai_tts.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\ai_tts.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_img_1.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\img_1.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_class.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\item_class.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_online_llm_chatwithfuction.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\online_llm_chatwithfuction.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_voice.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_add_voice.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_add_voice_package.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\dialog_add_voice_package.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_third.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\fragment_third.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_jjlxr.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\jjlxr.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\raw_video5.m4s.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\raw\\video5.m4s"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_shouyu1.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\shouyu1.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_zimu_3.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\zimu_3.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\raw_video3.m4s.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\raw\\video3.m4s"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_luyin.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\fragment_luyin.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_no.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\ic_home_no.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_doing.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\doing.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_shouyu4.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\shouyu4.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_into.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\into.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_btn_bg.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\login_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baojing_2.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\baojing_2.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_faxian_no.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\ic_faxian_no.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_banner3.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-xxxhdpi\\banner3.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_class.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_class.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_qtx.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_qtx.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_fullscreen_exit.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\ic_fullscreen_exit.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_relative.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\fragment_relative.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_search.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\search.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_select_mine.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\select_mine.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_play.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\drawable\\ic_play.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_login_bg.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\login_bg.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_kefu.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\mipmap-hdpi\\kefu.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_qh.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\activity_qh.xml"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_haoyou.xml.flat",
+        "source": "E:\\Txt\\SparkChain_Android_SDK_2.0.0_rc5\\app\\src\\main\\res\\layout\\fragment_haoyou.xml"
+    }
+]

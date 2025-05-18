@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/login_bg"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tv_login_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="200dp"
+            android:text="@string/login_title"
+            android:textColor="@color/login_title"
+            android:textSize="28sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    <EditText
+        android:id="@+id/et_mobile"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/login_edit_bg"
+        android:hint="@string/mobile"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textColorHint="@color/login_tip"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_login_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <EditText
+        android:id="@+id/et_sms_code"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/login_edit_bg"
+        android:hint="@string/sms_code"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textColorHint="@color/login_tip"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/et_mobile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/tv_get_sms_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_sms_code"
+        android:textColor="@color/login_tip"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/et_sms_code"
+        app:layout_constraintTop_toTopOf="@+id/et_sms_code"
+        app:layout_constraintBottom_toBottomOf="@+id/et_sms_code"
+        android:layout_marginRight="20dp"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/login_btn_bg"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/et_sms_code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="50dp"
+        >
+
+        <CheckBox
+            android:id="@+id/cb_login_notice"
+            style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:buttonTint="@color/white"
+            android:checked="false"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/login_access_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_notice"
+            android:textColor="@color/login_notice"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/cb_login_notice" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 33
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.iflytek.edgeAI"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0.0"
+        multiDexEnabled true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+//        ndk {
+//            abiFilters "armeabi-v7a"
+////            abiFilters "arm64-v8a"
+//        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    ndkVersion '20.0.5594570'
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.hjq:xxpermissions:8.2'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation files('libs/SparkChain.aar')
+    api 'com.google.code.gson:gson:2.8.8'
+    // 引入 Banner 库，用于显示轮播图
+    implementation 'io.github.youth5201314:banner:2.2.3'
+    // 引入glide  库，用于图片加载
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    // LeanCloud
+    implementation 'cn.leancloud:storage-android:8.2.28'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    // 即时通讯和推送
+    implementation 'cn.leancloud:realtime-android:8.2.28'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'io.github.bmob:android-sdk:4.1.0'
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.9'
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.2'
+    implementation 'com.squareup.okhttp3:okhttp:4.8.1'
+    implementation 'com.squareup.okio:okio:2.2.2'
+
+    // 添加 Google Play services 位置相关依赖
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    // 如果你还需要处理权限相关逻辑，添加以下依赖
+    implementation 'com.google.android.gms:play-services-auth:20.1.0'
+
+    compile project(":leancloudchatkit")
+}
