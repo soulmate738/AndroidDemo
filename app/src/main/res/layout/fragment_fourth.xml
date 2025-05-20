@@ -12,79 +12,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="40dp"
-        android:layout_marginStart="30dp"
-        android:src="@mipmap/ic_lxq"/>
+        android:layout_marginStart="60dp"
+        android:src="@mipmap/head1"/>
     <TextView
         android:id="@+id/tv_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:gravity="center"
         app:layout_constraintTop_toTopOf="@+id/iv_head"
+        app:layout_constraintBottom_toBottomOf="@id/iv_head"
         app:layout_constraintStart_toEndOf="@+id/iv_head"
         android:text="旋风小陀螺"
         android:textColor="@color/black"
-        android:layout_marginTop="15dp"
         android:layout_marginLeft="20dp"
-        android:textSize="16sp"/>
-    <TextView
-        android:id="@+id/tv_sex"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/iv_head"
-        app:layout_constraintStart_toEndOf="@+id/iv_head"
-        android:text="未知"
-        android:textColor="@color/black"
-        android:layout_marginBottom="15dp"
-        android:layout_marginLeft="20dp"
-        android:textSize="16sp"/>
-    <Button
-        android:id="@+id/btn_"
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:background="@drawable/login_btn_bg"
-        android:text="个人主页"
-        android:textColor="@color/black"
-        android:gravity="center"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="@+id/iv_head"
-        app:layout_constraintBottom_toBottomOf="@+id/iv_head"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="30dp"/>
-    <ImageView
-        android:id="@+id/iv_lxr"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        app:layout_constraintTop_toBottomOf="@+id/iv_head"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="0dp"
-        android:visibility="invisible"
-        android:layout_marginStart="60dp"
-        android:src="@mipmap/jjlxr" />
-    <TextView
-        android:id="@+id/tv_lxr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="@+id/iv_lxr"
-        app:layout_constraintBottom_toBottomOf="@id/iv_lxr"
-        android:text="紧急联系人设置"
-        android:textColor="@color/black"
-        android:visibility="invisible"
+        android:textSize="20sp"/>
 
-        android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@id/iv_lxr"
-        android:layout_marginStart="40dp" />
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        app:layout_constraintTop_toBottomOf="@+id/iv_lxr"
-        android:visibility="invisible"
-        android:background="@color/login_notice"
-        android:layout_marginTop="0dp"
-        android:layout_marginHorizontal="60dp"/>
     <ImageView
         android:id="@+id/iv_kefu"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        app:layout_constraintTop_toBottomOf="@+id/iv_lxr"
+        app:layout_constraintTop_toBottomOf="@+id/iv_head"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="30dp"
         android:layout_marginStart="60dp"
@@ -98,7 +45,7 @@
         android:text="客服咨询"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@id/iv_lxr"
+        app:layout_constraintStart_toEndOf="@id/iv_kefu"
         android:layout_marginStart="40dp" />
     <View
         android:layout_width="match_parent"

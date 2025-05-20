@@ -6,28 +6,36 @@ import android.view.Window;
 import android.view.WindowManager;
 
 
+import com.example.sparkchaindemo.CustomUserProvider;
 import com.example.sparkchaindemo.R;
 import com.example.sparkchaindemo.base.BaseActivity;
 
 import cn.bmob.v3.Bmob;
+import cn.bmob.v3.ai.BmobAI;
 import cn.leancloud.LCLogger;
 import cn.leancloud.LCUser;
 import cn.leancloud.LeanCloud;
+import cn.leancloud.chatkit.LCChatKit;
 import cn.leancloud.im.LCIMOptions;
 
 public class SplashActivity extends BaseActivity {
-
+    public static BmobAI bmobAI;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // bmob和leancloud初始化
         Bmob.initialize(this, "313ec8bfa0fb3fbc37986bec8dde3149");
+        //初始化AI（初始化时，会自动创建一个websocket，保持心跳连接，确保实时回复）
+        bmobAI = new BmobAI();
         // 开启调试日志
         LeanCloud.setLogLevel(LCLogger.Level.DEBUG);
         // 初始化
         LeanCloud.initialize(this,"sj3RjQUCn3sY2JAsFGhPU1ug-MdYXbMMI", "W15suVMgq3oBPJVjPOI38NKM");
         // 不使用推送功能
         LCIMOptions.getGlobalOptions().setDisableAutoLogin4Push(true);
+        // 关于 CustomUserProvider 可以参看后面的文档
+        LCChatKit.getInstance().setProfileProvider(CustomUserProvider.getInstance());
+        LCChatKit.getInstance().init(getApplicationContext(), "sj3RjQUCn3sY2JAsFGhPU1ug-MdYXbMMI", "W15suVMgq3oBPJVjPOI38NKM");
         new Thread() {
             @Override
             public void run() {

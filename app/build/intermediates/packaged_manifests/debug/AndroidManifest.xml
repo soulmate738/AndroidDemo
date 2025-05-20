@@ -15,7 +15,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 悬浮窗权限 -->
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 位置权限 -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 权限 -->
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -24,11 +23,16 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
 
-    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
     <uses-feature android:name="android.hardware.camera.flash" />
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
         android:allowBackup="true"
@@ -41,6 +45,27 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.sparkchaindemo.activity.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.sparkchaindemo.activity.TermsOfServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.sparkchaindemo.activity.PrivacyPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.sparkchaindemo.activity.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.sparkchaindemo.activity.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.sparkchaindemo.activity.WenJuanActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.sparkchaindemo.activity.KeFuActivity"
+            android:exported="false" />
         <activity
             android:name="com.example.sparkchaindemo.activity.SplashActivity"
             android:exported="true"
@@ -55,9 +80,6 @@
             android:name="com.example.sparkchaindemo.activity.LoginActivity"
             android:exported="true"
             android:theme="@style/AppTheme" />
-        <activity
-            android:name="com.example.sparkchaindemo.activity.AlertActivity"
-            android:exported="false" />
         <activity
             android:name="com.example.sparkchaindemo.activity.ClassActivity"
             android:exported="false" />
@@ -98,8 +120,7 @@
             android:exported="false" />
         <activity
             android:name="com.example.sparkchaindemo.activity.MainActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
 
         <provider
             android:name="cn.bmob.v3.util.BmobContentProvider"
@@ -119,73 +140,43 @@
                 <action android:name="android.intent.action.USER_PRESENT" />
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
-        </receiver> <!-- <activity -->
-        <!-- android:name=".activity.SplashActivity" -->
-        <!-- android:exported="true" -->
-        <!-- android:theme="@style/SplashTheme" /> -->
-        <!-- <activity -->
-        <!-- android:name=".activity.LoginActivity" -->
-        <!-- android:exported="true" -->
-        <!-- android:theme="@style/AppTheme" /> -->
+        </receiver>
+
         <activity
-            android:name="com.example.sparkchaindemo.MainActivity"
-            android:exported="true" >
+            android:name="cn.leancloud.chatkit.activity.LCIMConversationActivity"
+            android:exported="true"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="cn.leancloud.chatkit.conversation_item_click_action" />
 
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.sparkchaindemo.llm.online_llm.chat.ChatActivity"
-            android:label="大模型通用对话" />
-        <activity
-            android:name="com.example.sparkchaindemo.llm.online_llm.tti.ttiDemoActivity"
-            android:label="图片生成" />
-        <activity
-            android:name="com.example.sparkchaindemo.llm.online_llm.image_understanding.ImageUnderstanding"
-            android:label="图片理解" />
-        <activity
-            android:name="com.example.sparkchaindemo.llm.online_llm.embedding.EmbeddingActivity"
-            android:label="文本向量化" />
-        <activity
-            android:name="com.example.sparkchaindemo.llm.online_llm.personatetts.PersonateTTSActivity"
-            android:label="超拟人合成" />
-        <activity
-            android:name="com.example.sparkchaindemo.llm.online_llm.bm.bmmDemoActivity"
-            android:label="多语种识别大模型" />
-        <activity
-            android:name="com.example.sparkchaindemo.llm.online_llm.bm.bmcDemoActivity"
-            android:label="中文识别大模型" />
-        <activity
-            android:name="com.example.sparkchaindemo.llm.online_llm.bm.bmModeChoiceActivity"
-            android:label="大模型识别" />
-        <activity
-            android:name="com.example.sparkchaindemo.llm.online_llm.function.ChatWithFuctionCallActivity"
-            android:label="FunctionCall" />
-        <activity
-            android:name="com.example.sparkchaindemo.llm.online_llm.online_llm_mainActivity"
-            android:label="大模型能力" />
-        <activity
-            android:name="com.example.sparkchaindemo.ai.AIMainActivity"
-            android:label="语音能力" />
-        <activity
-            android:name="com.example.sparkchaindemo.ai.rtasr.RTASRActivity"
-            android:label="实时语音转写" />
-        <activity
-            android:name="com.example.sparkchaindemo.ai.itrans.ITSActivity"
-            android:label="在线翻译" />
-        <activity
-            android:name="com.example.sparkchaindemo.ai.tts.TTSActivity"
-            android:label="在线合成" />
-        <activity
-            android:name="com.example.sparkchaindemo.ai.asr.asrActivity"
-            android:label="语音听写" />
-        <activity
-            android:name="com.example.sparkchaindemo.ai.raasr.RAASRActivity"
-            android:label="录音文件转写" />
+        <activity android:name="cn.leancloud.chatkit.activity.LCIMImageActivity" />
+        <activity android:name="cn.leancloud.chatkit.activity.LCIMConversationSettingActivity" >
+        </activity> <!-- <receiver android:name="cn.leancloud.push.AVBroadcastReceiver" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.BOOT_COMPLETED"/> -->
+        <!-- <action android:name="android.intent.action.USER_PRESENT"/> -->
+        <!-- <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.iflytek.edgeAI.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" >
+            </meta-data>
+        </provider>
+
+        <activity android:name="cn.leancloud.chatkit.activity.LCIMConversationDetailActivity" >
+        </activity>
+        <activity android:name="cn.leancloud.chatkit.activity.LCIMUserSelectActivity" >
+        </activity>
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"

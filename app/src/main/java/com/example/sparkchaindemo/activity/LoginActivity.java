@@ -26,6 +26,9 @@ import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.LogInListener;
 import cn.bmob.v3.listener.QueryListener;
 import cn.leancloud.LCUser;
+import cn.leancloud.im.v2.LCIMClient;
+import cn.leancloud.im.v2.LCIMException;
+import cn.leancloud.im.v2.callback.LCIMClientCallback;
 import cn.leancloud.sms.LCSMS;
 import cn.leancloud.sms.LCSMSOption;
 import cn.leancloud.types.LCNull;
@@ -164,6 +167,19 @@ public class LoginActivity extends BaseActivity {
             }
 
             public void onNext(LCUser user) {
+                // 登录成功，与服务器连接
+                LCIMClient client = LCIMClient.getInstance(user);
+                client.open(new LCIMClientCallback() {
+                    @Override
+                    public void done(final LCIMClient avimClient, LCIMException e) {
+                        // 执行其他逻辑
+                        if (null == e) {
+                            // 登录成功
+                            // 将用户信息存储到本地sharedPreferences中
+                            Log.d(TAG, "--------登录成功且IM登陆成功");
+                        }
+                    }
+                });
                 // 登录成功
                 // 将用户信息存储到本地sharedPreferences中
                 SharedPreferences sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);

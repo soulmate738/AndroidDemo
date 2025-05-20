@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <!-- 顶部导航栏 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        >
+
+        <!-- 返回按钮 -->
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:src="@mipmap/back"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <!-- 标题 -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="关于聆心桥"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <!-- 占位视图，保持标题居中 -->
+        <View
+            android:layout_width="48dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <!-- 内容区域 -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            tools:ignore="ExtraText">
+
+            <!-- 应用图标 -->
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@mipmap/ic_lxq"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="4dp"/>
+
+            <!-- 应用名称 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="聆心桥"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- 版本信息 -->
+            <TextView
+                android:id="@+id/versionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="版本号: 1.0.0"
+                android:textSize="14sp"
+                android:textColor="#888888"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="32dp"/>
+
+            <!-- 应用描述 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="聆心桥是一款专为听障人士设计的生活助手应用，致力于通过科技的力量，帮助听障人群更便捷地与外界沟通，提升生活质量。"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- 功能特点 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="主要功能:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• 实时语音转文字：将周围的语音实时转换为文字，帮助听障人士理解对话内容\n• 强提醒：自定义多种场景的震动提醒，确保不错过重要通知\n• 手语学习：内置手语学习课程，手语学习卡片，方便日常交流\n• 紧急求助：一键联系紧急联系人，提供位置信息和求助说明\n• 社交互动：支持社区互动和消息接收发送"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingMultiplier="1.5"
+            android:layout_marginBottom="32dp"/>
+
+            <!-- 版权信息 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="© 2025 聆心桥团队. 保留所有权利."
+                android:textSize="14sp"
+                android:textColor="#888888"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

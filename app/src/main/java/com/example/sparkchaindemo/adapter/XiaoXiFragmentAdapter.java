@@ -5,8 +5,12 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+import com.example.sparkchaindemo.fragment.HaoyouFragment;
 import com.example.sparkchaindemo.fragment.RelativeFragment;
 import com.example.sparkchaindemo.fragment.XiaoXiFragment;
+
+import cn.leancloud.chatkit.activity.LCIMContactFragment;
+import cn.leancloud.chatkit.activity.LCIMConversationListFragment;
 
 /**
  * @author anjia
@@ -24,7 +28,7 @@ public class XiaoXiFragmentAdapter extends FragmentPagerAdapter {
         if (position == 0) {
             return new XiaoXiFragment();
         } else {
-            return new RelativeFragment();
+            return new HaoyouFragment();
         }
     }
 
