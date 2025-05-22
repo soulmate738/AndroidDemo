@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.cardview.widget.CardView;
@@ -17,6 +18,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.sparkchaindemo.R;
 import com.example.sparkchaindemo.activity.BaoJingActivity;
+import com.example.sparkchaindemo.activity.ChatActivity;
 import com.example.sparkchaindemo.activity.EmergencyContactActivity;
 import com.example.sparkchaindemo.activity.QtxActivity;
 import com.example.sparkchaindemo.activity.ShouYuActivity;
@@ -37,6 +39,7 @@ public class FirstFragment extends Fragment {
     private TextView cardChange;
     private ImageView cardImage;
     private List<Integer> banner_data;
+    private LinearLayout mAI;
     // 示例数据 - 可以替换为实际数据源
     private List<Integer> imageResources = new ArrayList<>();
 
@@ -58,6 +61,7 @@ public class FirstFragment extends Fragment {
         item7Class = view.findViewById(R.id.item7_class);
         cardImage = view.findViewById(R.id.iv_card);
         cardChange = view.findViewById(R.id.tv_card_change);
+        mAI = view.findViewById(R.id.ll_ai);
         banner_data = new ArrayList<>();
         banner_data.add(R.mipmap.banner1);
         banner_data.add(R.mipmap.banner2);
@@ -94,6 +98,15 @@ public class FirstFragment extends Fragment {
     }
 
     private void initListener() {
+        mAI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 跳转到SttActivity
+                Intent intent = new Intent(getActivity(), ChatActivity.class);
+                intent.putExtra("name", "小聆心");
+                startActivity(intent);
+            }
+        });
         item1Stt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

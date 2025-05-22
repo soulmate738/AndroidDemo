@@ -2,9 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.sparkchaindemo">
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 传统设备信息权限，仅适用于非 SDK 接口 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -23,6 +26,8 @@
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
 
     <application
         android:allowBackup="true"
@@ -32,6 +37,25 @@
         android:roundIcon="@mipmap/ic_lxq"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.PostDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PublishPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ReminderDialogActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:showOnLockScreen="true"
+            android:theme="@style/SafetyDialog"
+            android:turnScreenOn="true" />
+        <activity
+            android:name=".activity.AddScheduleActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+
+        <receiver android:name=".AlarmReceiver" />
+
         <activity
             android:name=".activity.ChatActivity"
             android:exported="false" />
@@ -117,6 +141,10 @@
         <service android:name="cn.leancloud.push.PushService" />
         <service
             android:name=".services.FloatingWindowService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".AlarmReceiver$ReminderService"
             android:enabled="true"
             android:exported="false" />
 

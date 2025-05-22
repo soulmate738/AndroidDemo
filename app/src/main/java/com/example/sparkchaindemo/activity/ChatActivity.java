@@ -95,10 +95,12 @@ public class ChatActivity extends BaseActivity {
                 public void onFinish(String message) {
                     //一次性返回全部结果，这个方法需要等待一段时间，友好性较差
                     if (!TextUtils.isEmpty(message)) {
-                        ChatMessage chatMessage = new ChatMessage(message, ChatMessage.TYPE_TEXT, ChatMessage.TYPE_RECEIVED, 0, null);
-                        messages.add(chatMessage);
-                        adapter.notifyItemInserted(messages.size() - 1);
-                        rvChatMessages.scrollToPosition(messages.size() - 1);
+                        runOnUiThread(() -> {
+                            ChatMessage chatMessage = new ChatMessage(message, ChatMessage.TYPE_TEXT, ChatMessage.TYPE_RECEIVED, 0, null);
+                            messages.add(chatMessage);
+                            adapter.notifyItemInserted(messages.size() - 1);
+                            rvChatMessages.scrollToPosition(messages.size() - 1);
+                        });
                     }
                     Log.d("Bmob", message);
                 }

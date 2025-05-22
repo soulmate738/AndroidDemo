@@ -234,13 +234,13 @@ public class BaoJingActivity extends BaseActivity implements LocationListener {
 
                 // 按省市区街道小区顺序构建地址
                 if (address.getAdminArea() != null) {
-                    addressText.append(address.getAdminArea()).append("省");
+                    addressText.append(address.getAdminArea()).append("");
                 }
                 if (address.getLocality() != null) {
-                    addressText.append(address.getLocality()).append("市");
+                    addressText.append(address.getLocality()).append("");
                 }
                 if (address.getSubAdminArea() != null) {
-                    addressText.append(address.getSubAdminArea()).append("区");
+                    addressText.append(address.getSubAdminArea()).append("");
                 }
                 if (address.getThoroughfare() != null) {
                     addressText.append(address.getThoroughfare());
@@ -254,7 +254,7 @@ public class BaoJingActivity extends BaseActivity implements LocationListener {
                 }
 
                 // 添加精度信息
-                addressText.append("\n\n精度: ").append(location.getAccuracy()).append("米");
+                // addressText.append("\n\n精度: ").append(location.getAccuracy()).append("米");
 
                 runOnUiThread(() -> {
                     mContent.setText("当前位置：\n" + addressText.toString());

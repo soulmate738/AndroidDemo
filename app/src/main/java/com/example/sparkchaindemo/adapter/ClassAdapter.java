@@ -92,8 +92,4 @@ public class ClassAdapter extends RecyclerView.Adapter<ClassAdapter.ClassViewHol
         return items.size();
     }
 
-    public void addItem(ClassItem mainItem) {
-        items.add(mainItem);
-        notifyItemInserted(items.size() - 1);
-    }
 }

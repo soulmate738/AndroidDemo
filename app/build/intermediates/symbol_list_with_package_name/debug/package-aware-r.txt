@@ -27,19 +27,19 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
-anim fragment_close_enter
-anim fragment_close_exit
-anim fragment_fade_enter
-anim fragment_fade_exit
 anim fragment_fast_out_extra_slow_in
-anim fragment_open_enter
-anim fragment_open_exit
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
+animator fragment_close_enter
+animator fragment_close_exit
+animator fragment_fade_enter
+animator fragment_fade_exit
+animator fragment_open_enter
+animator fragment_open_exit
 animator linear_indeterminate_line1_head_interpolator
 animator linear_indeterminate_line1_tail_interpolator
 animator linear_indeterminate_line2_head_interpolator
@@ -274,6 +274,10 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -2799,6 +2803,7 @@ id actions
 id activity_chooser_view_content
 id activity_square_members_letterview
 id add
+id add_button
 id add_yyt_tabLayout
 id add_yyt_viewpager
 id adjust_height
@@ -2905,13 +2910,19 @@ id bounceEnd
 id bounceStart
 id btnConfirm
 id btn_add
+id btn_add_image
+id btn_add_post
 id btn_back
+id btn_back_add
 id btn_call
+id btn_cancel
 id btn_delete
 id btn_edit
 id btn_login
+id btn_publish
 id btn_save
 id btn_send
+id btn_send_comment
 id btn_start
 id btn_stop
 id buttonContainer
@@ -3015,12 +3026,14 @@ id custom
 id customPanel
 id cut
 id dark
+id date_edit
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deleteButton
+id delete_button
 id deltaRelative
 id dependency_ordering
 id descriptionTextView
@@ -3030,6 +3043,9 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id dialog_button
+id dialog_dismiss
+id dialog_message
+id dialog_title
 id dimensions
 id direct
 id disableHome
@@ -3065,6 +3081,8 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id et_comment
+id et_content
 id et_file_name
 id et_message
 id et_mobile
@@ -3076,8 +3094,6 @@ id et_voice_package_name
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fa_xian_tabLayout
-id fa_xian_viewpager
 id fade
 id faqContainer
 id fill
@@ -3090,6 +3106,9 @@ id fitStart
 id fitToContents
 id fitXY
 id fixed
+id fl_media
+id fl_preview
+id flash_checkbox
 id flip
 id floating
 id forever
@@ -3164,11 +3183,20 @@ id iv_avatar
 id iv_back
 id iv_card
 id iv_close
+id iv_comment
+id iv_comment_avatar
+id iv_comment_like
+id iv_detail_avatar
+id iv_detail_like
+id iv_detail_media
 id iv_exit
 id iv_guanyu
 id iv_head
 id iv_kefu
-id iv_search
+id iv_like
+id iv_media_image
+id iv_preview
+id iv_remove_media
 id iv_setting
 id iv_wjdc
 id jumpToEnd
@@ -3190,6 +3218,11 @@ id listView_admin
 id listView_blacklist
 id listView_member
 id list_item
+id ll_ai
+id ll_comment_like
+id ll_like
+id ll_no_comments
+id ll_reply_container
 id ll_title
 id ll_voice
 id llm_main_offline
@@ -3397,15 +3430,22 @@ id row_index_key
 id rv_chat_list
 id rv_chat_messages
 id rv_class
+id rv_comments
+id rv_posts
 id rv_yyb
 id rv_yyt
 id save
+id save_button
 id save_non_transition_alpha
 id save_overlay_view
 id save_voice
 id sawtooth
 id scale
 id scaleButton
+id schedule_name
+id schedule_name_edit
+id schedule_recycler_view
+id schedule_time
 id screen
 id scroll
 id scrollIndicatorDown
@@ -3444,6 +3484,7 @@ id snap
 id snapMargins
 id south
 id spacer
+id special_effects_controller_view_tag
 id speedButton
 id spline
 id split_action_bar
@@ -3517,6 +3558,7 @@ id textinput_prefix_text
 id textinput_suffix_text
 id time
 id timeTextView
+id time_edit
 id title
 id titleDividerNoCustom
 id titleTextView
@@ -3542,7 +3584,17 @@ id tv_bj_content
 id tv_bj_title
 id tv_call
 id tv_card_change
+id tv_comment_content
+id tv_comment_count
+id tv_comment_like_count
+id tv_comment_nickname
+id tv_comment_time
+id tv_content
 id tv_dd
+id tv_detail_content
+id tv_detail_like_count
+id tv_detail_nickname
+id tv_detail_time
 id tv_duration
 id tv_dz
 id tv_exit
@@ -3552,12 +3604,16 @@ id tv_get_sms_code
 id tv_guanyu
 id tv_kefu
 id tv_ld
+id tv_like_count
 id tv_login_title
 id tv_message
 id tv_name
+id tv_nickname
 id tv_phone
 id tv_qh
 id tv_qq
+id tv_reply
+id tv_reply_content
 id tv_setting
 id tv_stt_content
 id tv_time
@@ -3576,11 +3632,15 @@ id useLogo
 id versionText
 id vertical
 id vertical_only
+id vibrate_checkbox
 id videoContainer
 id videoView
 id viewPager
 id view_offset_helper
 id view_transition
+id view_tree_lifecycle_owner
+id view_tree_saved_state_registry_owner
+id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id voicePackageInfo
@@ -3594,8 +3654,6 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
-id xiao_xi_tabLayout
-id xiao_xi_viewpager
 id zero_corner_chip
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
@@ -3691,6 +3749,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_about
+layout activity_add_schedule
 layout activity_add_voice
 layout activity_add_yyt
 layout activity_bao_jing
@@ -3701,9 +3760,12 @@ layout activity_emergency_contact
 layout activity_ke_fu
 layout activity_login
 layout activity_main
+layout activity_post_detail
 layout activity_privacy_policy
+layout activity_publish_post
 layout activity_qh
 layout activity_qtx
+layout activity_reminder_dialog
 layout activity_settings
 layout activity_shou_yu
 layout activity_splash
@@ -3761,8 +3823,10 @@ layout iem_chat_message_receiver
 layout item_chat_list
 layout item_chat_message_send
 layout item_class
+layout item_comment
 layout item_contact
 layout item_faq
+layout item_post
 layout item_voice
 layout item_voice_package
 layout lcim_bottom_bar_action_layout
@@ -3863,6 +3927,7 @@ layout online_llm_image_understanding
 layout online_llm_main
 layout online_llm_personatetts
 layout online_llm_tti
+layout schedule_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3896,6 +3961,7 @@ mipmap baojing_2
 mipmap btnbg
 mipmap class_bg
 mipmap close
+mipmap comment
 mipmap doing
 mipmap exit
 mipmap faxian
@@ -3904,6 +3970,9 @@ mipmap head1
 mipmap head2
 mipmap head3
 mipmap head4
+mipmap heart
+mipmap heart2
+mipmap heart3
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap ic_lxq
@@ -5283,6 +5352,7 @@ styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCo
 styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carousel_firstView carousel_forwardTransition carousel_infinite carousel_nextState carousel_previousState carousel_touchUpMode carousel_touchUp_dampeningFactor carousel_touchUp_velocityThreshold
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize

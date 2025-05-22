@@ -15,7 +15,7 @@ import com.example.sparkchaindemo.fragment.ThirdFragment;
  */
 public class MyFragmentAdapter extends FragmentPagerAdapter {
 
-    private String[] mTitles = new String[]{"首页", "发现", "消息","我的"};
+    private String[] mTitles = new String[]{"首页", "日程", "动态","我的"};
 
     public MyFragmentAdapter(@NonNull FragmentManager fm) {
         super(fm);

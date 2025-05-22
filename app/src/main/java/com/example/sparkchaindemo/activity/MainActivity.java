@@ -3,6 +3,7 @@ package com.example.sparkchaindemo.activity;
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.util.Log;
@@ -37,6 +38,7 @@ import cn.leancloud.im.LCIMOptions;
 
 public class MainActivity extends BaseActivity {
     private static final String TAG = "MainActivity";
+    private static final int PERMISSION_REQUEST_CODE = 100;
     private TabLayout mTabLayout;
     private CustomViewPager mCustomViewPager;
     private MyFragmentAdapter myFragmentAdapter;
@@ -46,6 +48,13 @@ public class MainActivity extends BaseActivity {
     private TabLayout.Tab four;
     private boolean isAuth = false;
     private static final int REQUEST_WRITE_EXTERNAL_STORAGE = 1;
+    private void checkPermissions() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (checkSelfPermission(Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+                requestPermissions(new String[]{Manifest.permission.CAMERA}, PERMISSION_REQUEST_CODE);
+            }
+        }
+    }
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -74,8 +83,8 @@ public class MainActivity extends BaseActivity {
 
         //设置Tab的图标，假如不需要则把下面的代码删去
         one.setIcon(R.drawable.select_home);
-        two.setIcon(R.drawable.select_faxian);
-        three.setIcon(R.drawable.select_xiaoxi);
+        two.setIcon(R.drawable.select_xiaoxi);
+        three.setIcon(R.drawable.select_faxian);
         four.setIcon(R.drawable.select_mine);
 
     }
@@ -119,6 +128,12 @@ public class MainActivity extends BaseActivity {
             } else {
                 // 权限被拒绝
                 Toast.makeText(this, "存储权限被拒绝，无法创建文件夹", Toast.LENGTH_SHORT).show();
+            }
+        }if (requestCode == PERMISSION_REQUEST_CODE) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(this, "相机权限已获取", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "需要相机权限以使用闪光灯提醒", Toast.LENGTH_SHORT).show();
             }
         }
     }

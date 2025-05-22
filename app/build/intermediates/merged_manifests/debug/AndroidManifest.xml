@@ -8,8 +8,11 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="33" />
 
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 传统设备信息权限，仅适用于非 SDK 接口 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -30,6 +33,8 @@
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -45,6 +50,25 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.sparkchaindemo.activity.PostDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.sparkchaindemo.activity.PublishPostActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.sparkchaindemo.activity.ReminderDialogActivity"
+            android:parentActivityName="com.example.sparkchaindemo.activity.MainActivity"
+            android:showOnLockScreen="true"
+            android:theme="@style/SafetyDialog"
+            android:turnScreenOn="true" />
+        <activity
+            android:name="com.example.sparkchaindemo.activity.AddScheduleActivity"
+            android:exported="true"
+            android:parentActivityName="com.example.sparkchaindemo.MainActivity" />
+
+        <receiver android:name="com.example.sparkchaindemo.AlarmReceiver" />
+
         <activity
             android:name="com.example.sparkchaindemo.activity.ChatActivity"
             android:exported="false" />
@@ -129,6 +153,10 @@
         <service android:name="cn.leancloud.push.PushService" />
         <service
             android:name="com.example.sparkchaindemo.services.FloatingWindowService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.example.sparkchaindemo.AlarmReceiver$ReminderService"
             android:enabled="true"
             android:exported="false" />
 
